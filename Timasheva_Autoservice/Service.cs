@@ -39,7 +39,7 @@ namespace Timasheva_Autoservice
             }
             set
             {
-                
+                this.Discount = Convert.ToDouble(value) / 100; 
             }   
         }
 
